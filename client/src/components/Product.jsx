@@ -10,8 +10,9 @@ const Product = React.createClass({
   },
 
   render: function() {
+
     return (
-        <div onClick={this.onClick}>
+        <div className="product" onClick={this.onClick}>
           <h1>{this.props.product.name}</h1>
           <img src={this.props.product.img} height="250" width="250"/>
           <p>£{this.props.product.price}</p>

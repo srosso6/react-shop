@@ -10,9 +10,11 @@ const ProductList = React.createClass({
     );
 
     return (
-      <div>
-        <h1>{this.props.category}</h1>
-        {products}
+      <div className="product-list-header">
+        <h1 id="category-header">{this.props.category}</h1>
+        <div className="product-list">
+          {products}
+        </div>
       </div>
     );
   }

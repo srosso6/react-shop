@@ -39,15 +39,17 @@ const Shop = React.createClass({
     let content = <CategoryList
       categories={this.categories()}
       onCatClick={this.onCatClick}
-      categoryClass="category"/>
+      categoryClass="cat-box"
+      listClass="page"/>
 
     if(this.state.selectedCategory) {
       content =
-        <div>
+        <div className="inside-shop">
           <CategoryList
             categories={this.categories()}
             onCatClick={this.onCatClick}
-            categoryClass="navigation"/>
+            categoryClass="cat-bar"
+            listClass="navbar"/>
           <ProductList
           products={this.productsInCategory()}
           category={this.state.selectedCategory}/>
@@ -55,8 +57,8 @@ const Shop = React.createClass({
     }
 
     return (
-      <div>
-        <h1 onClick={this.onHeadingClick}>Bex's Shop</h1>
+      <div className="shop">
+        <h1 id="shop-header" onClick={this.onHeadingClick}>Bex's Shop</h1>
         {content}
       </div>
     );

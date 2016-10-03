@@ -10,7 +10,7 @@ const CategoryList = React.createClass({
     );
 
     return (
-        <div>
+        <div className={this.props.listClass}>
           {categories}
         </div>
     );

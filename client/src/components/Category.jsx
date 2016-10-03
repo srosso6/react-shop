@@ -8,7 +8,6 @@ const Category = React.createClass({
 
   render: function() {
 
-    console.log(this.props.categoryClass);
     return (
         <div onClick={this.onClick} className={this.props.categoryClass}>
           {this.props.category}
