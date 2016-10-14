@@ -6,7 +6,7 @@ module.exports = [
     category: "Women's Footwear",
     price: 99.00,
     quantity: 5,
-    img: "img/almondtoecourtshoe.jpg",
+    img: "img/almondtoecourtshoe.jpg"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ module.exports = [
     category: "Women's Footwear",
     price: 42.00,
     quantity: 4,
-    img: "img/bluesuedeshoe.jpg",
+    img: "img/bluesuedeshoe.jpg"
   },
   {
     id: 6,
@@ -24,7 +24,7 @@ module.exports = [
     category: "Women's Casualwear",
     price: 167.00,
     quantity: 6,
-    img: "img/goldbuttoncardigan.jpeg",
+    img: "img/goldbuttoncardigan.jpeg"
   },
   {
     id: 7,
@@ -33,7 +33,7 @@ module.exports = [
     category: "Women's Casualwear",
     price: 30.00,
     quantity: 5,
-    img: "img/redcottonshorts.jpg",
+    img: "img/redcottonshorts.jpg"
   },
   {
     id: 12,
@@ -42,7 +42,7 @@ module.exports = [
     category: "Women's Formalwear",
     price: 270.00,
     quantity: 10,
-    img: "img/birdprintdress.jpg",
+    img: "img/birdprintdress.jpg"
   },
   {
     id: 13,
@@ -51,7 +51,7 @@ module.exports = [
     category: "Women's Formalwear",
     price: 540.00,
     quantity: 5,
-    img: "img/midtwistcutoutdress.jpeg",
+    img: "img/midtwistcutoutdress.jpeg"
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ module.exports = [
     category: "Men's Footwear",
     price: 34.00,
     quantity: 12,
-    img: "img/tanloafers.jpg",
+    img: "img/tanloafers.jpg"
   },
   {
     id: 4,
@@ -69,7 +69,7 @@ module.exports = [
     category: "Men's Footwear",
     price: 19.00,
     quantity: 6,
-    img: "img/redflipflop.jpg",
+    img: "img/redflipflop.jpg"
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ module.exports = [
     category: "Men's Footwear",
     price: 19.00,
     quantity: 0,
-    img: "img/blueflipflop.jpg",
+    img: "img/blueflipflop.jpg"
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ module.exports = [
     category: "Men's Casualwear",
     price: 49.99,
     quantity: 9,
-    img: "img/greyshirt.jpg",
+    img: "img/greyshirt.jpg"
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ module.exports = [
     category: "Men's Casualwear",
     price: 39.99 ,
     quantity: 3,
-    img: "img/greenshirt.jpg",
+    img: "img/greenshirt.jpg"
   },
   {
     id: 10,
@@ -105,7 +105,7 @@ module.exports = [
     category: "Men's Formalwear",
     price: 75.00,
     quantity: 2,
-    img: "img/sharkskinwaistcoat.jpg",
+    img: "img/sharkskinwaistcoat.jpg"
   },
   {
     id: 11,
@@ -114,6 +114,6 @@ module.exports = [
     category: "Men's Formalwear",
     price: 175.50,
     quantity: 1,
-    img: "img/patchpocketblazer.jpeg",
+    img: "img/patchpocketblazer.jpeg"
   }
 ]

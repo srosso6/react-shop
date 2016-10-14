@@ -6,7 +6,7 @@ const ProductList = React.createClass({
   render: function() {
 
     const products = this.props.products.map((product, index) =>
-      <Product key={index} product={product}/>
+      <Product key={index} product={product} addToCart={this.props.addToCart} view="category"/>
     );
 
     return (

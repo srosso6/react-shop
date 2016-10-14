@@ -29,12 +29,16 @@ body {
   margin: 0;
   padding-top: 30px;
   font-size: 4em;
+  position: relative;
 }
 
-// div {
-//   height: 100%;
-//   width: 100%;
-// }
+#cart-button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
 
 .cat-box {
   display: inline-block;
@@ -85,7 +89,8 @@ body {
   // clear: both;
 }
 
-.product-list-header {
+.product-list-header,
+.cart-list-header {
   border: 1px solid orange;
   height: 85%;
 }
